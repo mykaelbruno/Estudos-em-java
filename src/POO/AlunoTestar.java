@@ -9,5 +9,8 @@ public class AlunoTestar {
 
         Bruno.setNome("Bruno");
 
+        Aluno Alice = new Aluno("Maria Alice da silva pimentel", 12);
+        System.out.println(Alice);
+
     }
 }

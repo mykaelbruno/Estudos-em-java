@@ -18,7 +18,29 @@ public class Aluno {
         return idade;
     }
 
+
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    public Aluno () {
+    }
+
+    public Aluno(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", nota=" + nota +
+                '}';
+    }
 }
+
+
+
+
