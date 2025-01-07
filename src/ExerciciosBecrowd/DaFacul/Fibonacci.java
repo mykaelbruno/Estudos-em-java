@@ -1,4 +1,4 @@
-package ExerciciosBecrowd;
+package ExerciciosBecrowd.DaFacul;
 
 import java.util.Scanner;
 import java.util.Arrays;
