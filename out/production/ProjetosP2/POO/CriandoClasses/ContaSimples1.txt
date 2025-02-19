@@ -1,0 +1,9 @@
+ContaSimples1.uml
+
+- nome: String
+- cpf: Stirng
+- numero: int
+- saldo: double
+
++ ContaSimples(numero : int, nome : Sting, cpf : String)
++ Depositar (valor : Double) : Boolean

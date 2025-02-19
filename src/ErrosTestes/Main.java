@@ -1,3 +1,4 @@
+/*
 package ErrosTestes;
 
 import java.util.Scanner;
@@ -13,7 +14,7 @@ public class Main {
                 System.out.println("Informe um divisor: ");
                 int num = Integer.parseInt(sc.nextLine());
                 //recebe uma sting e converte pra inteiro, para evitar bug de enter no buffer;
-                double res = 5 / num;
+
                 //divide 5 pelo valor informado >ONDE OCORRE O ERRO<
                 System.out.println(res);
                 //caso não seja 0, ele vai dividir e seguir o código
@@ -25,5 +26,16 @@ public class Main {
                 //informa o erro e continua a execução do código, continuando no loop
             }
         }
+
+    }
+    private Boolean numeroDividir(double num) {
+        double res = 5 / num;
+        if(num % 2 == 0) {
+
+        }
+         / num;
+
+        return res;
     }
 }
+*/
