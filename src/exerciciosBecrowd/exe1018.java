@@ -1,4 +1,4 @@
-package ExerciciosBecrowd;
+package exerciciosBecrowd;
 
 import java.util.Scanner;
 

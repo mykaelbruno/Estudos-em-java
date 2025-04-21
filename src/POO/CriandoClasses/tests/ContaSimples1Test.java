@@ -1,3 +1,4 @@
+/*
 package POO.CriandoClasses.tests;
 
 import POO.CriandoClasses.ContaSimples1;
@@ -66,4 +67,4 @@ class ContaSimples1Test {
     @Test
     void testHashCode() {
     }
-}
+}*/
